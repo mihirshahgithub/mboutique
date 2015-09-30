@@ -1,1 +1,35 @@
-/* Add your CSS here */
+header a {
+    font-family: Arial, Helvetica, Sans-Serif;
+    font-size: 16px;
+    color: #515151;
+    position: relative;
+    left:400px;
+}
+
+a:hover{
+    color:#d42551;
+}
+header{
+    background-color:#fffabe;
+    width:1000px;
+    height:72px;
+    position: relative;
+
+}
+
+.logo{
+    position:relative;
+}
+
+
+
+
+#nav{
+    display:inline-block;
+    position:absolute;
+    bottom:40%;
+}
+
+header #nav li{
+    display:inline-block;
+}/* Add your CSS here */
