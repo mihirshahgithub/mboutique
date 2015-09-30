@@ -35,10 +35,10 @@ header #nav li{
     float:left;
     box-sizing: border-box;
     position: relative;
-    min-height: 187px;
-    width: 240px;
+    max-height: 157px;
+    max-width: 200px;
     margin: 50px  40px 5px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .welcome{
     display:inline-block;
@@ -59,4 +59,48 @@ header #nav li{
     font-size: 20px;
 }
 
+/*MBoutique: Styling the Cookies */
+.times{
+    width:1000px;
+    color:#fffabe;
+    margin-bottom: 30px;
+}
+
+.day{
+    font-family:arial, helvetica, sans-serif;
+    font-size:14px;
+    color:#6a6969;
+    list-style-type:none;
+    display:inline-block;
+    background-color:#fffabe;
+    position:relative;
+    left:100px;
+}
+.minimac{
+    display:inline-block;
+}
+
+.almond {
+    background-color:#c39005;
+    color:white;
+}
+
+.sched{
+    font-family:arial, helvetica, sans-serif;
+    font-size:12px;
+    color: #6a6969;
+}
+
+.footer{
+    display: inline-block;
+    background-color:#df5277;
+    width:1000px;
+    height:80px;
+    text-align:center;
+    box-sizing: border-box;
+    position: relative;
+    left: 90px;
+    list-style-type:none;
+    text-decoration:none;
+}
 
