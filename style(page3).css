@@ -67,7 +67,7 @@ header #nav li{
     position:relative;
     left: 100px;
     margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
 
 }
 .bodypp h3 {
@@ -136,8 +136,8 @@ header #nav li{
     left: 20px;
 }
 .footer li:nth-child(2){
-   position:relative;
-   left: 30%;
+    position:relative;
+    left: 30%;
 }
 
 .footer li:nth-child(3){
@@ -211,3 +211,98 @@ h2{
     color: #6a6969;
 }
 
+/* Styling Assignment_3 CSS */
+#viewport{
+    max-width: 100vw;
+    max-height:100vh;
+}
+h1{
+    font-family: "arial", helvetica, sans-serif;
+    font-size:20px;
+    color:#6a6969;
+}
+
+p{
+    font-family: "arial", helvetica, sans-serif;
+    font-size:14px;
+    color:#6a6969;
+}
+p a{
+    color:#df5277;
+}
+h3{
+    font-family: "arial", helvetica, sans-serif;
+    font-size:14px;
+    color: #6a6969;
+    position:relative;
+    bottom:500px;
+}
+h4{
+    float:left;
+    font-family: "arial", helvetica, sans-serif;
+    font-size:20px;
+    position:relative;
+    bottom:350px;
+    color: #6a6969;
+}
+
+.giftbox li{
+    list-style:disc;
+}
+
+#child1{
+    list-style-type: circle;
+    display:block;
+    font-family: "arial", helvetica, sans-serif;
+    font-size:20px;
+    color: #6a6969;
+    position:relative;
+    bottom:500px;
+    right: 80px;
+}
+#child2 {
+    display: block;
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    position: relative;
+    bottom: 500px;
+    right: 80px;
+}
+
+#child3 {
+    display: block;
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    position: relative;
+    bottom: 420px;
+    right:75px;
+}
+#child4{
+    display: block;
+    list-style-type: square;
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    position: relative;
+    bottom: 600px;
+}
+
+#child5{
+    display: block;
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    position: relative;
+    bottom: 600px;
+}
+
+#tower{
+    float:left;
+    font-family: "arial", helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+    position: relative;
+    bottom: 200px;
+}
