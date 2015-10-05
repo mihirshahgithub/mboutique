@@ -211,3 +211,97 @@ h2{
     color: #6a6969;
 }
 
+/* CSS STYLING MBOUTIQUE ASSIGNMENT_4*/
+#visitus {
+    display:block;
+    float:left;
+    font-family: "Arial", Helvetica, Sans-Serif;
+    font-size: 14;
+    color: #6a6969;
+    padding:0 50px 0 0;
+}
+
+#styled{
+    float:right;
+    position:relative;
+    right:40%;
+}
+
+#styled input[type="text"]{
+    width:310px;
+    height:35px;
+    background-color:#f5f5f5;
+}
+
+#styled input[type="email"]{
+    width:310px;
+    height:35px;
+    background-color:#f5f5f5;
+}
+
+
+#styled button [type="submit"]{
+    width:155px;
+    height:35px;
+    background-color:#f5f5f5;
+}
+
+
+.footerassignment4{
+    background-color:#df5277;
+    width:1000px;
+    height:80px;
+    list-style-type: none;
+    position:relative;
+    top:250px;
+}
+
+.footerassignment4 li{
+    list-style-type: none;
+}
+
+.footerassignment4 li:first-child{
+    position: relative;
+    left: 20px;
+}
+.footerassignment4 li:nth-child(2){
+    position:relative;
+    left: 30%;
+}
+
+.footerassignment4 li:nth-child(3){
+    float:right;
+    position:relative;
+    right:25%;
+    bottom:40%;
+
+}
+
+.footerassignment4 li:nth-child(6){
+    display:block;
+    text-align:center;
+    position:relative;
+    left: 3%;
+}
+
+.footerassignment4 li:nth-child(5) {
+    float:right;
+    position: relative;
+    bottom:40%;
+    right:10%;
+
+}
+.footerassignment4 li:nth-child(4) {
+    float:right;
+    position: relative;
+    bottom:40%;
+    right: 15%;
+}
+
+.macimaging{
+    float:right;
+    position: relative;
+    bottom:60px;
+}
+
+
