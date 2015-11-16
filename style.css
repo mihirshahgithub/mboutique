@@ -1,4 +1,7 @@
-
+body{
+    height:100vh;
+    width:100vw;
+}
 header a {
     font-family: Arial, Helvetica, Sans-Serif;
     font-size: 16px;
@@ -12,8 +15,8 @@ a:hover{
 }
 header{
     background-color:#fffabe;
-    width:1000px;
-    height:72px;
+    width:62.5em;
+    height:4.5em;
     position: relative;
 
 }
@@ -308,7 +311,7 @@ h2{
     display:block;
     position:relative;
     left:0;
-    top:500%;
+    top:0;
     font-family:arial, helvetica, sans-serif;
     font-size:.875em;
     color:#6a6969;
