@@ -216,7 +216,7 @@ h2{
     display:block;
     float:left;
     font-family: "Arial", Helvetica, Sans-Serif;
-    font-size: 14;
+    font-size: .875em;
     color: #6a6969;
     padding:0 50px 0 0;
 }
@@ -304,4 +304,17 @@ h2{
     bottom:60px;
 }
 
+#movetable{
+    display:block;
+    position:relative;
+    left:0;
+    top:500%;
+    font-family:arial, helvetica, sans-serif;
+    font-size:.875em;
+    color:#6a6969;
+}
+
+#spacing{
+    line-height:150%;
+}
 
