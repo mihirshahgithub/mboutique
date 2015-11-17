@@ -4,10 +4,10 @@ body{
 }
 header a {
     font-family: Arial, Helvetica, Sans-Serif;
-    font-size: 16px;
+    font-size: 1em;
     color: #515151;
     position: relative;
-    left:400px;
+    left:25em;
 }
 
 a:hover{
@@ -53,10 +53,10 @@ header #nav li{
     float:left;
     box-sizing: border-box;
     position: relative;
-    max-height: 157px;
-    max-width: 200px;
-    margin: 50px  40px 5px;
-    padding-bottom: 10px;
+    max-height: 9.8em;
+    max-width: 12.5em;
+    margin: 3.125em  2.5em 3.125em;
+    padding-bottom: 0.625em;
 }
 .welcome{
     display:inline-block;
@@ -65,16 +65,16 @@ header #nav li{
 }
 .bodypp{
     font-family: Arial, Helvetica, Sans-Serif;
-    font-size:14px;
+    font-size:.875em;
     color:#6a6969;
     position:relative;
-    left: 100px;
+    left: 6.25em;
     margin-left: auto;
 	margin-right: auto;
 
 }
 .bodypp h3 {
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 /*MBoutique: Styling the Cookies */
@@ -250,56 +250,7 @@ h2{
 }
 
 
-.footerassignment4{
-    background-color:#df5277;
-    width:1000px;
-    height:80px;
-    list-style-type: none;
-    position:relative;
-    top:250px;
-}
 
-.footerassignment4 li{
-    list-style-type: none;
-}
-
-.footerassignment4 li:first-child{
-    position: relative;
-    left: 20px;
-}
-.footerassignment4 li:nth-child(2){
-    position:relative;
-    left: 30%;
-}
-
-.footerassignment4 li:nth-child(3){
-    float:right;
-    position:relative;
-    right:25%;
-    bottom:40%;
-
-}
-
-.footerassignment4 li:nth-child(6){
-    display:block;
-    text-align:center;
-    position:relative;
-    left: 3%;
-}
-
-.footerassignment4 li:nth-child(5) {
-    float:right;
-    position: relative;
-    bottom:40%;
-    right:10%;
-
-}
-.footerassignment4 li:nth-child(4) {
-    float:right;
-    position: relative;
-    bottom:40%;
-    right: 15%;
-}
 
 .macimaging{
     float:right;
@@ -321,3 +272,13 @@ h2{
     line-height:150%;
 }
 
+.headerNew{
+    border:2px solid blueviolet;
+}
+.tableContainer{
+    border:2px solid darkolivegreen;
+}
+
+.footerNew{
+    border:2px dotted brown;
+}
