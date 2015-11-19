@@ -53,6 +53,9 @@ header .logo{
 
 }
 .contactForm{
+    font-family:arial, helvetica, sans-serif;
+    font-size:1.25em;
+    color:#6a6969;
     position:relative;
     left:25%;
     width:910px;
@@ -71,15 +74,37 @@ header .logo{
     bottom:10%;
     border:green solid 2px;
 }
+#visit{
+    font-family:arial, helvetica, sans-serif;
+    font-size:1.25em;
+    color:#6a6969;
+    position:relative;
+    bottom:10%;
+}
+
+.moveTable{
+    max-width:25%;
+    height:50%;
+    float:left;
+    text-align:left;
+    font-family:arial, helvetica, sans-serif;
+    font-size:.875em;
+    color:#6a6969;
+    position:relative;
+    bottom:10%;
+    border:green solid 2px;
+}
 #order{
     color:#df5277;
 }
 
-.tableContainer span {
+ span {
     color:#df5277;
     text-decoration:none;
 }
-
+.moveTable a{
+    text-decoration:none;
+}
 .tableContainer p{
     font-family:arial, helvetica, sans-serif;
     font-size:1.4em;
