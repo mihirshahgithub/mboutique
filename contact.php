@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<?php
+include_once('header.php');
+?>
 <div id="contactImage">
     <img class="contact" src="contact-image.png">
 </div>
@@ -47,17 +50,31 @@
 <div class="middleColumn">
     <p id="cForm">Contact Form</p>
 
-    <form action="http://index.php" method="POST">
+    <?php
+    echo($_POST['name'] . "<br />\n");
+    echo($_POST['email'] . "<br />\n");
+    echo($_POST['phone'] . "<br />\n");
+    echo($_POST['subject'] . "<br />\n");
+    echo($_POST['message'] . "<br />\n");
+    ?>
+
+
+
+    <form action="contact.php" method="POST">
         <input type="text" name="name" placeholder="Name"><br>
-        <input type="email" name="e-mail" placeholder="E-mail"><br>
+        <input type="email" name="email" placeholder="E-mail"><br>
         <input type="text" name="phone" placeholder="Phone"><br>
         <input type="text" name="subject" placeholder="Subject"><br>
-        <textarea rows="10" columns="6" name="MESSAGE" placeholder="Message"></textarea><br>
+        <textarea rows="10" columns="6" name="message" placeholder="Message"></textarea><br>
         <button type="submit" value="submit">SEND</button>
     </form>
 </div>
 <div class="rightColumn"><img class="rightImage" src="assets/images/macarons-image.png" alt="Macarons Image"
                               class="macimaging"></div>
+
+<?php
+include_once('footer.php');
+?>
 
 </body>
 </html>

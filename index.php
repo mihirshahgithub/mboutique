@@ -8,9 +8,28 @@
 </head>
 <body>
 <?php
-include('header.php');
+include_once('header.php');
     ?>
+<div id="main_content">
+
 <?php
-include('footer.php');
+
+    if(empty($_GET['page'])){
+        $page='welcome';
+        include_once($menuArray[$page]["url"]);
+        print_r($_GET);
+    } else if($_GET['page']=='macarons'||$_GET['page']=='gifts'||$_GET['page']=='welcome'||$_GET['page']=='contact'){
+        $page=$_GET['page'];
+        include_once($menuArray[$page]["url"]);
+    } else{
+        include("404.php");
+    }
+?>
+    <?php
+    print_r($_GET)
+    ?>
+</div>
+<?php
+include_once('footer.php');
 ?>
 </body>
