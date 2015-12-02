@@ -13,17 +13,28 @@ include_once('header.php');
 <div id="main_content">
 
 <?php
-
-    if(empty($_GET['page'])){
+// if(empty($_GET['page'])){
+//        $page='welcome';
+//        include_once($menuArray[$page]["url"]);
+//        print_r($_GET);
+//    } else if($_GET['page']=='macarons'||$_GET['page']=='gifts'||$_GET['page']=='welcome'||$_GET['page']=='contact'){
+//        $page=$_GET['page'];
+//        include_once($menuArray[$page]["url"]);
+//    } else{
+//        include("404.php");
+//    }
+ if(empty($_GET['page'])){
         $page='welcome';
-        include_once($menuArray[$page]["url"]);
-        print_r($_GET);
-    } else if($_GET['page']=='macarons'||$_GET['page']=='gifts'||$_GET['page']=='welcome'||$_GET['page']=='contact'){
-        $page=$_GET['page'];
-        include_once($menuArray[$page]["url"]);
-    } else{
-        include("404.php");
-    }
+     include_once($menuArray[$page]["url"]);
+    }else{
+     if(isset($menuArray[$_GET['page']])) {
+         $page = $_GET['page'];
+         include_once($menuArray[$page]["url"]);
+     }else{
+         include("404.php");
+     }
+ };
+print('page'.print_r($page,true));
 ?>
     <?php
     print_r($_GET)
