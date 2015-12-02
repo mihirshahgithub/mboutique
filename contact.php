@@ -51,23 +51,35 @@ include_once('header.php');
     <p id="cForm">Contact Form</p>
 
     <?php
-    echo($_POST['name'] . "<br />\n");
-    echo($_POST['email'] . "<br />\n");
-    echo($_POST['phone'] . "<br />\n");
-    echo($_POST['subject'] . "<br />\n");
-    echo($_POST['message'] . "<br />\n");
+    if (empty($_POST)) {
+        ?>
+        <form action="contact.php" method="POST">
+            <input type="text" name="name" placeholder="Name"><br>
+            <input type="email" name="email" placeholder="E-mail"><br>
+            <input type="text" name="phone" placeholder="Phone"><br>
+            <input type="text" name="subject" placeholder="Subject"><br>
+            <textarea rows="10" columns="6" name="message" placeholder="Message"></textarea><br>
+            <button type="submit" value="submit">SEND</button>
+        </form>
+        <?php
+    } else {
+        ?>
+        <form action="index.php?page=contact" method="POST">
+            <input type="text" name="name" placeholder="Name" value="<?php print $_POST['name'] ?>"><br>
+            <input type="email" name="email" placeholder="E-mail" value="<?php print $_POST['email'] ?>"><br>
+            <input type="text" name="phone" placeholder="Phone" value="<?php print $_POST['phone'] ?>"><br>
+            <input type="text" name="subject" placeholder="Subject" value="<?php print $_POST['subject'] ?>"><br>
+            <textarea rows="10" columns="6" name="message" placeholder="Message"
+                      value="<?php print $_POST['message'] ?>"></textarea><br>
+            <button type="submit" value="submit">SEND</button>
+        </form>
+        <h2>Thank you for your submission.  Your response has been recorded.</h2>
+        <?php
+    }
     ?>
 
 
 
-    <form action="contact.php" method="POST">
-        <input type="text" name="name" placeholder="Name"><br>
-        <input type="email" name="email" placeholder="E-mail"><br>
-        <input type="text" name="phone" placeholder="Phone"><br>
-        <input type="text" name="subject" placeholder="Subject"><br>
-        <textarea rows="10" columns="6" name="message" placeholder="Message"></textarea><br>
-        <button type="submit" value="submit">SEND</button>
-    </form>
 </div>
 <div class="rightColumn"><img class="rightImage" src="assets/images/macarons-image.png" alt="Macarons Image"
                               class="macimaging"></div>
